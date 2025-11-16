@@ -1,0 +1,88 @@
+body {
+  font-size: 18px;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+
+.math-heading {
+  margin-bottom: 40px;
+}
+.math-content .none {
+  list-style: none;
+}
+.math-content h2 {
+  margin-bottom: 40px;
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 39px;
+}
+.math-content-heading {
+  font-weight: 700;
+  font-size: 39px;
+  margin-bottom: 20px;
+}
+.math-content-heading span {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.math-content-part1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #292a32;
+  margin-bottom: 40px;
+}
+.math-content-part1-box {
+  font-weight: 500;
+  font-size: 39px;
+}
+.math-content-part1-box span {
+  color: #3b5998;
+}
+.math-content-part2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #292a32;
+  margin-bottom: 40px;
+}
+.math-content-part2-box {
+  font-weight: 500;
+  font-size: 39px;
+}
+.math-content-part2-box span {
+  color: #3b5998;
+}
+.math-content-part3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #292a32;
+  margin-bottom: 40px;
+}
+.math-content-part3-box {
+  font-weight: 500;
+  font-size: 39px;
+}
+.math-content-part3-box span {
+  color: #3b5998;
+}
+.math-content-part4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #292a32;
+  margin-bottom: 100px;
+}
+.math-content-part4-box {
+  font-weight: 500;
+  font-size: 39px;
+}
+.math-content-part4-box span {
+  color: #3b5998;
+}
+
+/*# sourceMappingURL=style-math.css.map */

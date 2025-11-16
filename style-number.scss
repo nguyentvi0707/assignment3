@@ -1,0 +1,127 @@
+//Variables
+$font: "Space Grotesk", sans-serif;
+$black: #292a32;
+$green: #b9ff66;
+$darkgreen: #68bf00;
+$gray: #f3f3f3;
+$facebook: #3b5998;
+$shadow: #191a23;
+
+// common
+body {
+  font-size: 18px;
+  color: black;
+  font-family: $font;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+.number{
+  &-content{
+    h2{
+      color: $facebook;
+      font-weight: 700;
+      font-size: 39px;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    span{
+      color: $darkgreen;
+    }
+    &-heading{
+      color: $facebook;
+      font-weight: 500;
+      font-size: 39px;
+      margin-bottom: 20px;
+      span1{
+        color: $black;
+      }
+    }
+    &-part1-box{
+      font-weight: 500;
+      font-size: 39px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      &-one{
+        color: $facebook;
+      }
+    }
+    &-part2{
+      font-weight: 500;
+      font-size: 39px;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      &-box{
+        &-one{
+          list-style: none;
+          padding-left: 0;
+        }
+        &-two{
+          list-style: none;
+        }
+      }
+    }
+    &-part3{
+      margin-bottom: 20px;
+      &-box{
+        list-style: none;
+        font-weight: 500;
+        font-size: 39px;
+        padding-left: 0;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        &:nth-child(2){
+          margin-top: 20px;
+        }
+      }
+    }
+    &-part{
+      &-mot{
+        &-box{
+          font-weight: 500;
+          font-size: 35px;
+          display:flex;
+          align-items: center;
+          justify-content: space-between;
+          &-box{
+            list-style: none;
+            span2{
+              color:#8d10be;
+            }
+          }
+        }
+      }
+      &-hai{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        font-size: 35px;
+        &-box-box{
+          list-style: none;
+          span2{
+            color: #8d10be;
+          }
+        }
+      }
+      &-ba{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        font-size: 35px;
+        &-box{
+          list-style: none;
+        }
+      }
+      &-bon{
+        font-weight: 500;
+        font-size: 35px;
+        list-style: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+//Variables
+$font: "Space Grotesk", sans-serif;
+$black: #292a32;
+$green: #b9ff66;
+$darkgreen: #68bf00;
+$gray: #f3f3f3;
+$facebook: #3b5998;
+$shadow: #191a23;
+$skyblue: #00c8b3;
+// common
+body {
+  font-size: 18px;
+  color: black;
+  font-family: $font;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+.fairy {
+  &-heading {
+    margin-bottom: 0;
+  }
+  &-content {
+    &-heading {
+      font-weight: 700;
+      font-size: 39px;
+      margin-bottom: 15px;
+    }
+    &-text {
+      &-fairy {
+        font-weight: 500;
+        font-size: 39px;
+        color: $black;
+        margin-bottom: 56px;
+        span {
+          color: $darkgreen;
+        }
+      }
+      &-lesson {
+        font-weight: 500;
+        font-size: 39px;
+        color: $black;
+        margin-bottom: 56px;
+        span {
+          color: $darkgreen;
+        }
+      }
+    }
+  }
+}
+.spell {
+  &-content {
+    &-heading {
+      margin: 30px 0;
+    }
+    &-text {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &-one {
+        font-weight: 500;
+        font-size: 39px;
+      }
+      &-two {
+        font-weight: 500;
+        font-size: 39px;
+      }
+    }
+    &-cre {
+      font-weight: 500;
+      font-size: 39px;
+      color: $skyblue;
+      display: flex;
+      justify-content: end;
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+body {
+  font-size: 18px;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+
+.fairy-heading {
+  margin-bottom: 0;
+}
+.fairy-content-heading {
+  font-weight: 700;
+  font-size: 39px;
+  margin-bottom: 15px;
+}
+.fairy-content-text-fairy {
+  font-weight: 500;
+  font-size: 39px;
+  color: #292a32;
+  margin-bottom: 56px;
+}
+.fairy-content-text-fairy span {
+  color: #68bf00;
+}
+.fairy-content-text-lesson {
+  font-weight: 500;
+  font-size: 39px;
+  color: #292a32;
+  margin-bottom: 56px;
+}
+.fairy-content-text-lesson span {
+  color: #68bf00;
+}
+
+.spell-content-heading {
+  margin: 30px 0;
+}
+.spell-content-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.spell-content-text-one {
+  font-weight: 500;
+  font-size: 39px;
+}
+.spell-content-text-two {
+  font-weight: 500;
+  font-size: 39px;
+}
+.spell-content-cre {
+  font-weight: 500;
+  font-size: 39px;
+  color: #00c8b3;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=style-fairy-tales.css.map */

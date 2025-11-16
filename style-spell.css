@@ -1,0 +1,58 @@
+body {
+  font-size: 18px;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+
+.spell-content {
+  font-size: 50px;
+  font-weight: 700;
+}
+.spell-content-paragraph {
+  font-weight: 500;
+  font-size: 39px;
+}
+.spell-content-list {
+  font-weight: 500;
+  list-style: none;
+}
+.spell-content-list span {
+  color: #68bf00;
+}
+.spell-content-list span1 {
+  color: #3b5998;
+}
+.spell-content-cre {
+  color: #3b5998;
+  margin-bottom: 60px;
+  transform: translateX(60%);
+  font-weight: 500;
+  font-size: 39px;
+}
+.spell-content-heading {
+  margin-bottom: 32px;
+  color: #3b5998;
+}
+.spell-content-one table {
+  margin-bottom: 32px;
+}
+.spell-content-one table td {
+  padding-right: 55px;
+}
+.spell-content-two table {
+  margin-bottom: 32px;
+}
+.spell-content-two table td {
+  padding-right: 55px;
+}
+.spell-content-three table {
+  margin-bottom: 60px;
+}
+.spell-content-three table td {
+  padding-right: 25px;
+}
+
+/*# sourceMappingURL=style-spell.css.map */

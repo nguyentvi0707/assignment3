@@ -1,0 +1,533 @@
+//Variables
+$font: "Space Grotesk", sans-serif;
+$black: #292a32;
+$green: #b9ff66;
+$darkgreen: #68bf00;
+$gray: #f3f3f3;
+$facebook: #3b5998;
+$shadow: #191a23;
+
+// common
+body {
+  font-size: 18px;
+  color: black;
+  font-family: $font;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.container-fluid {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+//header
+.header {
+  margin-bottom: 70px;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    margin-bottom: 70px;
+  }
+  &-logo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  &-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+  }
+  &-language {
+    position: relative;
+    display: flex;
+    padding: 17px 12px;
+    border: 1px solid $black;
+    border-radius: 14px;
+    &-flag {
+      position: absolute;
+      display: flex;
+      // align-items: center;
+      flex-direction: column;
+      margin-right: 8px;
+      &-en {
+        display: none;
+      }
+    }
+    &-text {
+      display: flex;
+      align-items: center;
+      margin-left: 40px;
+    }
+    &:hover {
+      transition: all 5s linear;
+      .header-language-flag {
+        top: -2%;
+      }
+      .header-language-flag-en {
+        display: block;
+        opacity: 50%;
+      }
+    }
+  }
+  a {
+    color: inherit;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    transition: all 0.2s linear;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $green;
+  }
+  input {
+    font-family: inherit;
+    height: 68px;
+    width: 400px;
+    border-radius: 16px;
+    border: 1px solid $black;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: inherit;
+    padding-left: 40px;
+  }
+  input::placeholder {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: inherit;
+  }
+  input:focus::placeholder {
+    opacity: 0;
+  }
+}
+.hero {
+  margin-bottom: 60px;
+  &-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 125px;
+  }
+  &-desc {
+    width: 85%;
+    margin-bottom: 60px;
+  }
+  &-rule {
+    border: 2px solid $black;
+    border-radius: 32px;
+    padding: 30px;
+    box-shadow: 0 4px 0 $black;
+    height: max-content;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  &-item {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+  }
+  &-heading {
+    margin-bottom: 60px;
+    h1 {
+      font-size: 40px;
+      font-weight: 500;
+      margin: 0;
+    }
+    h4 {
+      font-size: 26px;
+      font-weight: 500;
+      margin: 0;
+      display: flex;
+      justify-content: end;
+    }
+  }
+
+  span {
+    font-weight: 700;
+  }
+  &-desc-top {
+    margin-bottom: 29px;
+  }
+}
+.button {
+  font-family: inherit;
+  height: 68px;
+  border-radius: 14px;
+  border: 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+.button:hover {
+  color: $black;
+  background-color: $green;
+  transition: all 0.5 linear;
+  border: 0;
+}
+.button1 {
+  width: 235px;
+  color: white;
+  background-color: $black;
+}
+
+.button2 {
+  width: 165px;
+  font-weight: 700;
+  background-color: $facebook;
+  color: white;
+  padding: 20px 35px;
+  position: absolute;
+  bottom: 100px;
+  // &:hover {
+
+  //   bottom: 10%;
+  //   transition: all 0.1s ease-in;
+  //   height: 48px;
+  //   // transform: translateY(-10px);
+  //   // padding: 10px 35px;
+  //   background-color: $facebook;
+  //   color: white;
+  //   // box-shadow: 0 -10px 1px $shadow;
+
+  //   }
+}
+.course {
+  &-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  &-logo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    background-color: $green;
+    padding: 15px;
+    border: 0;
+    border-radius: 12px;
+  }
+  &-item-heading {
+    margin-bottom: 79px;
+    h3 {
+      padding: 0 20px 0 7px;
+      width: max-content;
+      font-weight: 500;
+      font-size: 30px;
+      margin: 0;
+      border-radius: 7px;
+    }
+    h1 {
+      padding: 0 12px 0 7px;
+      background-color: $gray;
+      width: max-content;
+      border-radius: 7px;
+      margin: 0;
+      font-size: 60px;
+      font-weight: 500;
+    }
+  }
+  &-item-link {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 55px;
+  }
+  &-item {
+    border-radius: 45px;
+    padding: 50px 50px 50px;
+    border: 1px solid $black;
+    box-shadow: 0 4px 0 $shadow;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    &-link {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      img {
+        width: 41px;
+        height: 41px;
+      }
+    }
+  }
+  &-item1 {
+    background-color: $green;
+    h3 {
+      background-color: $gray;
+      border: 7px;
+    }
+  }
+  &-item2 {
+    background-color: $gray;
+    h3 {
+      background-color: $green;
+      border-radius: 7px;
+    }
+  }
+  &-item3 {
+    background-color: $black;
+    h3 {
+      background-color: $green;
+      border-radius: 7px;
+    }
+    a {
+      color: white;
+    }
+  }
+}
+.fbgroup {
+  &-logo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    color: $black;
+    background-color: $green;
+    padding: 14px;
+    border-radius: 12px;
+  }
+  &-desc {
+    a {
+      color: $darkgreen;
+      text-decoration: none;
+    }
+  }
+  &-title {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 26px;
+  }
+
+  &-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  &-apply {
+    position: relative;
+    background-color: $gray;
+    border-radius: 45px;
+    display: flex;
+    margin-bottom: 60px;
+  }
+  &-image {
+    position: absolute;
+    top: -25px;
+    left: 750px;
+  }
+  &-content {
+    margin: 60px;
+    width: 500px;
+    // height: 227px;
+    &-desc {
+      margin-bottom: 26px;
+    }
+  }
+  &-button {
+    width: 165px;
+    border-radius: 14px;
+    position: relative;
+    &-shadow {
+      background-color: $black;
+      height: 68px;
+      border-radius: 14px;
+      position: static;
+      transform: translateY(100%);
+      display: none;
+    }
+    &-icon {
+      display: none;
+      position: absolute;
+    }
+    &-button {
+      background-color: $facebook;
+      width: 165px;
+      font-weight: 700;
+      background-color: $facebook;
+      color: white;
+      padding: 20px 35px;
+      border-radius: 14px;
+      font-family: inherit;
+      height: 68px;
+      border: 0;
+      font-size: 20px;
+      line-height: 28px;
+      // position: absolute;
+      bottom: 100px;
+    }
+    &:hover {
+      .fbgroup-button-shadow {
+        display: inline;
+        background-color: $black;
+        height: 68px;
+        border-radius: 14px;
+        transform: translateY(100%);
+      }
+      .fbgroup-button-icon {
+        transform: translateY(-40%);
+        left: 20%;
+        display: inline;
+      }
+      .fbgroup-button-button {
+        transform: translateY(20%);
+      }
+    }
+  }
+}
+.footer {
+  color: $gray;
+  &-main {
+    background-color: $black;
+    border-radius: 45px 45px 0 0;
+    padding: 50px 60px 0;
+  }
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+  }
+  &-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    list-style: none;
+    gap: 30px;
+    &-item {
+      a {
+        color: $gray;
+        text-decoration: none;
+        padding: 2px 14px;
+      }
+    }
+  }
+  &-logo {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+  }
+  &-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  &-contact {
+    &-heading {
+      font-family: $font;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25px;
+      color: $black;
+      background-color: $green;
+      border-radius: 7px;
+      width: 50%;
+      margin-bottom: 20px;
+      padding: 0 5px;
+      h4 {
+        margin-top: 0px;
+      }
+    }
+    &-desc {
+      div {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  &-report {
+    textarea {
+      height: calc(100% - 40px);
+      min-width: 350px;
+      border-radius: 14px;
+      resize: none;
+      padding: 20px 35px;
+      background-color: $black;
+      border: 1px solid white;
+      color: white;
+      font-family: $font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1;
+      overflow: hidden;
+    }
+    textarea:focus::placeholder {
+      opacity: 0;
+    }
+  }
+  &-input-email {
+    display: flex;
+    flex-direction: column;
+    max-width: 285px;
+    input {
+      margin-bottom: 30px;
+      border-radius: 14px;
+      resize: none;
+      padding: 20px 35px;
+      background-color: $black;
+      border: 1px solid white;
+      color: white;
+      font-family: $font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1;
+      overflow: hidden;
+    }
+    input:focus::placeholder {
+      opacity: 0;
+    }
+    button {
+      max-width: 120px;
+      padding: 20px 35px;
+      border-radius: 14px;
+      background-color: $green;
+      font-family: $font;
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 400;
+      color: $black;
+    }
+  }
+  &-footer {
+    border-top: 1px solid white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-convit {
+      text-decoration: none;
+      color: white;
+    }
+    &-item {
+      color: white;
+    }
+  }
+  &-contact-address {
+    margin-bottom: 0px !important;
+  }
+}

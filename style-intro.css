@@ -1,0 +1,78 @@
+body {
+  font-size: 18px;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+
+.course-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 45px;
+  background-color: #292A32;
+  padding: 60px;
+}
+.course-content-paragraph {
+  color: #ffffff;
+  margin-top: 0;
+}
+.course-content-paragraph:nth-child(1) {
+  max-width: 300px;
+}
+.course-content-paragraph:nth-child(2) {
+  max-width: 360px;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  padding-right: 40px;
+}
+.course-content-paragraph:nth-child(3) {
+  max-width: 286px;
+}
+
+.member-content {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 60px;
+}
+.member-content .member-infor {
+  max-width: 315px;
+  border-radius: 45px;
+  border: 1px solid #292A32;
+  padding: 40px 35px;
+  margin-right: 40px;
+  box-shadow: 0 4px 0 #191A23;
+}
+.member-content .member-infor .member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+}
+.member-content .member-infor .member-thuyvy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #292A32;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+.member-content .member-infor .member-thaovy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #292A32;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+.member-content .member-infor .member-coutryside {
+  display: flex;
+  justify-content: flex-end;
+}
+.member-fb {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 24px;
+}

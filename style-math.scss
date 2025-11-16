@@ -1,0 +1,99 @@
+//Variables
+$font: "Space Grotesk", sans-serif;
+$black: #292a32;
+$green: #b9ff66;
+$darkgreen: #68bf00;
+$gray: #f3f3f3;
+$facebook: #3b5998;
+$shadow: #191a23;
+
+// common
+body {
+  font-size: 18px;
+  color: black;
+  font-family: $font;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+.math{
+  &-heading{
+    margin-bottom: 40px;
+  }
+  &-content{
+    .none{
+      list-style: none;
+    }
+    h2{
+      margin-bottom: 40px;
+      margin-top: 0px;
+      font-weight: 700;
+      font-size: 39px;
+    }
+    &-heading{
+      font-weight: 700;
+      font-size: 39px;
+      margin-bottom: 20px;
+      span{
+        margin-right: 70px;
+        margin-left: 70px;
+      }
+    }
+    &-part1{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $black;
+      margin-bottom: 40px;
+      &-box{
+        font-weight: 500;
+        font-size: 39px;
+        span{
+          color: $facebook;
+        }
+      }
+    }
+    &-part2{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $black;
+      margin-bottom: 40px;
+      &-box{
+        font-weight: 500;
+        font-size: 39px;
+        span{
+          color: $facebook;
+        }
+      }
+    }
+    &-part3{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $black;
+      margin-bottom: 40px;
+      &-box{
+        font-weight: 500;
+        font-size: 39px;
+        span{
+          color: $facebook;
+        }
+      }
+    }
+    &-part4{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $black;
+      margin-bottom: 100px;
+      &-box{
+        font-weight: 500;
+        font-size: 39px;
+        span{
+          color: $facebook;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+//Variables
+$font: "Space Grotesk", sans-serif;
+$black: #292a32;
+$green: #b9ff66;
+$darkgreen: #68bf00;
+$gray: #f3f3f3;
+$facebook: #3b5998;
+$shadow: #191a23;
+
+// common
+body {
+  font-size: 18px;
+  color: black;
+  font-family: $font;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+.spell{
+  &-content{
+    font-size: 50px;
+    font-weight: 700;
+    &-paragraph{
+      font-weight: 500;
+      font-size: 39px;
+    }
+    &-list{
+      font-weight: 500;
+      list-style: none;
+      span{
+        color: $darkgreen;
+      }
+      span1{
+        color: $facebook;
+      }
+    }
+    &-cre{
+      color: $facebook;
+      margin-bottom: 60px;
+      transform: translateX(60%);
+      font-weight: 500;
+      font-size: 39px;
+    }
+    &-heading{
+      margin-bottom: 32px;
+      color: $facebook;
+    }
+    &-one{
+      table{
+        margin-bottom: 32px;
+        td{
+          padding-right: 55px;
+        }
+      }
+    }
+    &-two{
+      table{
+        margin-bottom: 32px;
+        td{
+          padding-right: 55px;
+        }
+      }
+    }
+    &-three{
+      table{
+        margin-bottom: 60px;
+        td{
+          padding-right: 25px;
+        }
+      }
+    }
+  }
+}
