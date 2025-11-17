@@ -1,0 +1,31 @@
+.header-language {
+  position: relative;
+  display: flex;
+  padding: 17px 12px;
+  border: 1px solid #292a32;
+  border-radius: 14px;
+}
+.header-language-flag {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+}
+.header-language-flag-vn {
+  display: none;
+}
+.header-language-text {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.header-language:hover {
+  transition: all 5s linear;
+}
+.header-language:hover .header-language-flag {
+  top: -2%;
+}
+.header-language:hover .header-language-flag-vn {
+  display: block;
+  opacity: 50%;
+}
