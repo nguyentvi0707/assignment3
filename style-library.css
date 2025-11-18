@@ -271,6 +271,9 @@ body {
   text-decoration: none;
   padding: 2px 14px;
 }
+.footer-menu-item a:hover {
+  color: #b9ff66;
+}
 .footer-logo {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;

@@ -429,6 +429,9 @@ body {
         color: $gray;
         text-decoration: none;
         padding: 2px 14px;
+        &:hover{
+          color: $green;
+        }
       }
     }
   }
