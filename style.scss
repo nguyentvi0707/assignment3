@@ -249,6 +249,11 @@ body {
   &-item-link {
     font-size: 20px;
     line-height: 28px;
+    position: relative;
+    transform-style: preserve-3d;
+    &-circle{
+      display: none;
+    }
   }
   &-content {
     display: grid;
@@ -261,6 +266,15 @@ body {
     padding: 50px 50px 50px;
     border: 1px solid $black;
     box-shadow: 0 4px 0 $shadow;
+    &:hover{
+      .course-item-link-circle{
+        display: block;
+        position: absolute;
+        left: 7px;
+        top:2px;
+        transform: translateZ(-10px);
+      }
+    }
     a {
       text-decoration: none;
       color: inherit;

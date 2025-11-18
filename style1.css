@@ -229,6 +229,18 @@ body {
 .course-item-link {
   font-size: 20px;
   line-height: 28px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.course-item-link-circle {
+  display: none;
+}
+.course-item:hover .course-item-link-circle {
+  display: block;
+  position: absolute;
+  left: 7px;
+  top: 2px;
+  transform: translateZ(-10px);
 }
 .course-content {
   display: grid;
@@ -242,6 +254,7 @@ body {
   border: 1px solid #292a32;
   box-shadow: 0 4px 0 #191a23;
 }
+
 .course-item a {
   text-decoration: none;
   color: inherit;
