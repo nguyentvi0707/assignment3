@@ -50,7 +50,7 @@ body {
 }
 .header-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   padding: 25px 0 60px;
 }
@@ -64,6 +64,12 @@ body {
   align-items: center;
   list-style: none;
   gap: 50px;
+  position: relative;
+  padding-left: 230px;
+}
+.header-menu-item:nth-child(4) {
+  position: absolute;
+  transform: translateX(890%);
 }
 .header a {
   color: inherit;
