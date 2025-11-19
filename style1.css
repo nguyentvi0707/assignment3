@@ -364,7 +364,6 @@ body {
   height: 68px;
   border-radius: 14px;
   position: static;
-  transform: translateY(100%);
   display: none;
 }
 .fbgroup-button-icon {
@@ -387,19 +386,23 @@ body {
   bottom: 100px;
 }
 .fbgroup-button:hover .fbgroup-button-shadow {
-  display: inline;
+  display: block;
   background-color: #292a32;
   height: 68px;
   border-radius: 14px;
-  transform: translateY(100%);
 }
 .fbgroup-button:hover .fbgroup-button-icon {
-  transform: translateY(-40%);
+  top: -40%;
   left: 20%;
-  display: inline;
+  display: block;
 }
 .fbgroup-button:hover .fbgroup-button-button {
-  transform: translateY(20%);
+  position: absolute;
+  width: 165px;
+  height: 58px;
+  bottom: -5%;
+  display: flex;
+  align-items: center;
 }
 
 .footer {

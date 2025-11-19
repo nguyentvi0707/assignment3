@@ -390,7 +390,7 @@ body {
       height: 68px;
       border-radius: 14px;
       position: static;
-      transform: translateY(100%);
+      // transform: translateY(100%);
       display: none;
     }
     &-icon {
@@ -415,19 +415,23 @@ body {
     }
     &:hover {
       .fbgroup-button-shadow {
-        display: inline;
+        display: block;
         background-color: $black;
         height: 68px;
         border-radius: 14px;
-        transform: translateY(100%);
       }
       .fbgroup-button-icon {
-        transform: translateY(-40%);
+        top: -40%;
         left: 20%;
-        display: inline;
+        display: block;
       }
       .fbgroup-button-button {
-        transform: translateY(20%);
+        position: absolute;
+        width: 165px;
+        height: 58px;
+        bottom: -5%;
+        display: flex;
+        align-items: center;
       }
     }
   }
