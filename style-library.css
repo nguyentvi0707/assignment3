@@ -19,7 +19,7 @@ body {
 }
 .header-main {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   padding: 25px 0 60px;
 }
@@ -34,13 +34,9 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 50px;
-  position: relative;
-  padding-left: 230px;
-}
-.header-menu-item:nth-child(4) {
-  position: absolute;
-  transform: translateX(890%);
+  justify-content: space-between;
+  gap: 150px;
+  padding-left: 0;
 }
 .header-menu a {
   color: inherit;

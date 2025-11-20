@@ -32,7 +32,7 @@ body {
   margin-bottom: 70px;
   &-main {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     padding: 25px 0;
     margin-bottom: 70px;
@@ -49,13 +49,9 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 50px;
-    position: relative;
-    padding-left: 230px;
-    &-item:nth-child(4){
-      position: absolute;
-      transform: translateX(890%);
-    }
+    justify-content: space-between;
+    padding-left: 0;
+    gap: 150px;
   }
   &-language {
     position: relative;
