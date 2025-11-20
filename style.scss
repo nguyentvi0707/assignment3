@@ -36,12 +36,15 @@ body {
     align-items: center;
     padding: 25px 0;
     margin-bottom: 70px;
+    .header-logo {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 28px;
+      text-decoration: none;
+      color: inherit;
+    }
   }
-  &-logo {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 28px;
-  }
+  
   &-menu {
     display: flex;
     align-items: center;
@@ -86,7 +89,8 @@ body {
       }
     }
   }
-  a {
+  &-menu{
+    a {
     color: inherit;
     font-size: 20px;
     line-height: 28px;
@@ -96,6 +100,7 @@ body {
   }
   a:hover {
     color: $green;
+  }
   }
   input {
     font-family: inherit;
@@ -226,6 +231,8 @@ body {
     padding: 15px;
     border: 0;
     border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
   }
   &-item-heading {
     margin-bottom: 79px;
@@ -341,6 +348,7 @@ body {
     background-color: $green;
     padding: 14px;
     border-radius: 12px;
+    text-decoration: none;
   }
   &-desc {
     a {
@@ -435,6 +443,20 @@ body {
         align-items: center;
       }
     }
+    // &:target{
+    //   .fbgroup-button-shadow {
+    //     display: block;
+    //     background-color: $black;
+    //     height: 68px;
+    //     border-radius: 14px;
+    //   }
+    //   .fbgroup-button-icon {
+    //     // transform: translateY(-20px);
+    //     left: 20%;
+    //     display: block;
+    //     transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    //   }
+    // }
   }
 }
 .footer {
@@ -476,6 +498,8 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 28px;
+    color: inherit;
+    text-decoration: none;
   }
   &-body {
     display: flex;
