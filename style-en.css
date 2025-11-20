@@ -168,6 +168,7 @@ body {
   border: 0;
   font-size: 20px;
   line-height: 28px;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -389,6 +390,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   bottom: 100px;
+  cursor: pointer;
 }
 .fbgroup-button:hover .fbgroup-button-shadow {
   display: block;
@@ -524,6 +526,7 @@ body {
   line-height: 28px;
   font-weight: 400;
   color: #292a32;
+  cursor: pointer;
 }
 .footer-footer {
   border-top: 1px solid white;

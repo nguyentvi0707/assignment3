@@ -421,6 +421,7 @@ body {
       line-height: 28px;
       // position: absolute;
       bottom: 100px;
+      cursor: pointer;
     }
     &:hover {
       .fbgroup-button-shadow {
@@ -580,6 +581,7 @@ body {
       line-height: 28px;
       font-weight: 400;
       color: $black;
+      cursor: pointer;
     }
   }
   &-footer {
