@@ -23,10 +23,12 @@ body {
   align-items: center;
   padding: 25px 0 60px;
 }
-.header-logo {
+.header-main .header-logo {
   font-size: 32px;
   font-weight: 700;
   line-height: 28px;
+  color: inherit;
+  text-decoration: none;
 }
 .header-menu {
   display: flex;
@@ -40,7 +42,7 @@ body {
   position: absolute;
   transform: translateX(890%);
 }
-.header a {
+.header-menu a {
   color: inherit;
   font-size: 20px;
   line-height: 28px;
@@ -48,7 +50,7 @@ body {
   transition: all 0.2s linear;
   text-decoration: none;
 }
-.header a:hover {
+.header-menu a:hover {
   color: #B9FF66;
 }
 .header input {
@@ -133,6 +135,8 @@ body {
   border-radius: 12px;
   display: flex;
   align-items: center;
+  color: inherit;
+  text-decoration: none;
 }
 .course-item-heading {
   margin-bottom: 79px;
@@ -310,6 +314,8 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 28px;
+  text-decoration: none;
+  color: inherit;
 }
 .footer-body {
   display: flex;
