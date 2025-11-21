@@ -18,6 +18,8 @@ body {
 .course-content-paragraph {
   color: #ffffff;
   margin-top: 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .course-content-paragraph:nth-child(1) {
   max-width: 300px;
