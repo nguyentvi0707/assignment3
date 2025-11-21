@@ -326,7 +326,9 @@ body {
   font-size: 20px;
   line-height: 28px;
   list-style: none;
-  gap: 30px;
+  gap: 120px;
+  padding-left: 0;
+  margin-right: 60px;
 }
 .footer-menu-item a {
   color: #F3F3F3;
@@ -346,7 +348,7 @@ body {
 }
 .footer-body {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
   margin-bottom: 30px;
 }
@@ -358,15 +360,19 @@ body {
   color: #292A32;
   background-color: #B9FF66;
   border-radius: 7px;
-  width: 50%;
+  /* width: 50%; */
   margin-bottom: 20px;
   padding: 0 5px;
 }
 .footer-contact-heading h4 {
   margin-top: 0px;
+  display: flex;
+  justify-content: center;
 }
 .footer-contact-desc div {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 .footer-report textarea {
   height: calc(100% - 40px);
