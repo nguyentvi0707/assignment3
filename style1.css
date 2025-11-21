@@ -174,6 +174,12 @@ body {
   border: 0;
 }
 
+.button1:active {
+  color: #f3f3f3;
+  background-color: #292a32;
+  transition: all 0.1s linear;
+}
+
 .button1 {
   width: 235px;
   color: white;
@@ -472,7 +478,9 @@ body {
   font-size: 20px;
   line-height: 28px;
   list-style: none;
-  gap: 30px;
+  gap: 120px;
+  padding-left: 0;
+  margin-right: 60px;
 }
 .footer-menu-item a {
   color: #f3f3f3;
@@ -492,7 +500,7 @@ body {
 }
 .footer-body {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
   margin-bottom: 30px;
 }
@@ -504,15 +512,18 @@ body {
   color: #292a32;
   background-color: #b9ff66;
   border-radius: 7px;
-  width: 50%;
   margin-bottom: 20px;
   padding: 0 5px;
 }
 .footer-contact-heading h4 {
   margin-top: 0px;
+  display: flex;
+  justify-content: center;
 }
 .footer-contact-desc div {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 .footer-report textarea {
   height: calc(100% - 40px);
